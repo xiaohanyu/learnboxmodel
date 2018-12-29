@@ -1,0 +1,9 @@
+{
+  "type": "static",
+  "alias": "learnboxmodel",
+  "build": {
+    "env": {
+      "NODE_ENV": "production",
+    }
+  }
+}

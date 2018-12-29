@@ -1,0 +1,29 @@
+{
+  "name": "sui-web-now",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@zeit/next-css": "^1.0.1",
+    "auth0-js": "^9.7.3",
+    "babel-plugin-module-resolver": "^3.1.1",
+    "file-loader": "^2.0.0",
+    "next": "^7.0.0",
+    "react": "^16.5.0",
+    "react-dom": "^16.5.0",
+    "semantic-ui-css": "^2.4.0",
+    "semantic-ui-react": "^0.82.5",
+    "url-loader": "^1.1.1"
+  },
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "export": "next export -o public/",
+    "postexport": "cp static/favicons/* public/",
+    "format":
+      "prettier --write 'components/**/*.js' 'components/**/*.jsx' 'pages/**/*.js' 'pages/**/*.jsx'"
+  },
+  "devDependencies": {
+    "prettier-standard": "^8.0.1"
+  }
+}

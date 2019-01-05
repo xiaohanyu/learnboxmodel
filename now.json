@@ -1,9 +1,8 @@
 {
-  "type": "static",
-  "alias": "learnboxmodel",
-  "build": {
-    "env": {
-      "NODE_ENV": "production",
-    }
-  }
+  "version": 2,
+  "name": "learnboxmodel",
+  "alias": ["learnboxmodel", "learnboxmodel.com", "www.learnboxmodel.com"],
+  "builds": [
+    { "src": "package.json", "use": "@now/static-build" }
+  ]
 }

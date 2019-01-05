@@ -1,10 +1,9 @@
 {
-  "name": "sui-web-now",
+  "name": "learnboxmodel",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "@zeit/next-css": "^1.0.1",
-    "auth0-js": "^9.7.3",
     "babel-plugin-module-resolver": "^3.1.1",
     "file-loader": "^2.0.0",
     "next": "^7.0.0",
@@ -18,8 +17,9 @@
     "dev": "next",
     "build": "next build",
     "start": "next start",
-    "export": "next export -o public/",
-    "postexport": "cp static/favicons/* public/",
+    "export": "rm -rf dist && next export -o dist/",
+    "postexport": "cp static/favicons/* dist/ && rm -rf dist/static/favicons",
+    "now-build": "yarn build && yarn export",
     "format":
       "prettier --write 'components/**/*.js' 'components/**/*.jsx' 'pages/**/*.js' 'pages/**/*.jsx'"
   },

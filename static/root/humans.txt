@@ -1,0 +1,29 @@
+/* TEAM */
+Developer: Xiao Hanyu
+Contact: xiaohanyu1988 [at] gmail.com
+Github: @xiaohanyu
+
+Designer: Xiao Hanyu
+Contact: xiaohanyu1988 [at] gmail.com
+Github: @xiaohanyu
+
+Writer: Xiao Hanyu
+Contact: xiaohanyu1988 [at] gmail.com
+Github: @xiaohanyu
+
+Maintainer: Xiao Hanyu
+Contact: xiaohanyu1988 [at] gmail.com
+Github: @xiaohanyu
+
+/* THANKS */
+React(https://reactjs.org/)
+Next.js(https://nextjs.org/)
+Github(https://github.com)
+Git(http://www.git-scm.com/)
+Semantic-UI(http://semantic-ui.com/)
+Semantic-UI-React(https://react.semantic-ui.com/)
+
+/* SITE */
+Last updated: 2019/01/08
+Languages: Chinese/English
+Doctype: HTML5

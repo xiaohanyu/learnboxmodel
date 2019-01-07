@@ -19,7 +19,7 @@
     "build": "next build",
     "start": "next start",
     "export": "rm -rf dist && next export -o dist/",
-    "postexport": "cp static/favicons/* dist/ && rm -rf dist/static/favicons",
+    "postexport": "cp static/root/* dist/ && rm -rf dist/static/root",
     "now-build": "yarn build && yarn export",
     "format": "prettier --write 'components/**/*.js' 'components/**/*.jsx' 'pages/**/*.js' 'pages/**/*.jsx'"
   },

@@ -9,6 +9,7 @@
     "next": "^7.0.0",
     "react": "^16.5.0",
     "react-dom": "^16.5.0",
+    "react-ga": "^2.5.6",
     "semantic-ui-css": "^2.4.0",
     "semantic-ui-react": "^0.82.5",
     "url-loader": "^1.1.1"
@@ -20,8 +21,7 @@
     "export": "rm -rf dist && next export -o dist/",
     "postexport": "cp static/favicons/* dist/ && rm -rf dist/static/favicons",
     "now-build": "yarn build && yarn export",
-    "format":
-      "prettier --write 'components/**/*.js' 'components/**/*.jsx' 'pages/**/*.js' 'pages/**/*.jsx'"
+    "format": "prettier --write 'components/**/*.js' 'components/**/*.jsx' 'pages/**/*.js' 'pages/**/*.jsx'"
   },
   "devDependencies": {
     "prettier-standard": "^8.0.1"

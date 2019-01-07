@@ -7,7 +7,7 @@ export default class Nav extends React.Component {
     const gridColumnStyle = {
       paddingTop: "2px",
       paddingBottom: "2px"
-    }
+    };
 
     return (
       <div>

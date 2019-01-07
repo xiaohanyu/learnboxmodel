@@ -6,8 +6,14 @@ import "semantic-ui-css/semantic.min.css";
 
 import Nav from "components/nav";
 import Footer from "components/footer";
+import ReactGA from "react-ga";
 
 export default class App extends React.Component {
+  componentDidMount() {
+    ReactGA.initialize("UA-131817507-1");
+    ReactGA.pageview(window.location.pathname + window.location.search);
+  }
+
   render() {
     let head = (
       <Head>

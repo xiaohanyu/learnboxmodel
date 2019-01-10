@@ -12,10 +12,12 @@ export default class Nav extends React.Component {
     return (
       <div>
         <Container text style={{ paddingTop: "2rem", paddingBottom: "2rem" }}>
-          <Grid
-            style={{ alignItems: "center", marginBottom: "0", marginTop: "0" }}
-          >
-            <Image src="/static/images/logo.svg" size="small" />
+          <Grid style={{ alignItems: "center", margin: "0" }}>
+            <Image
+              src="/static/images/logo.svg"
+              size="small"
+              style={{ padding: 0 }}
+            />
             <Header as="h1" style={{ marginTop: "0" }}>
               <Header.Content>{this.props.title}</Header.Content>
               <Header.Subheader>{this.props.subtitle}</Header.Subheader>

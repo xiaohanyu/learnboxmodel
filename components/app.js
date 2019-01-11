@@ -7,6 +7,7 @@ import "semantic-ui-css/semantic.min.css";
 import Nav from "components/nav";
 import Footer from "components/footer";
 import ReactGA from "react-ga";
+import GithubCorner from "react-github-corner";
 
 export default class App extends React.Component {
   componentDidMount() {
@@ -52,6 +53,7 @@ export default class App extends React.Component {
 
     return (
       <div>
+        <GithubCorner href="https://github.com/xiaohanyu/learnboxmodel" />
         {head}
         <Nav title={this.props.title} subtitle={this.props.subtitle} />
         {this.props.children}

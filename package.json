@@ -22,7 +22,7 @@
     "export": "rm -rf dist && next export -o dist/",
     "postexport": "cp static/root/* dist/ && rm -rf dist/static/root",
     "now-build": "yarn build && yarn export",
-    "format": "prettier --write 'components/**/*.js' 'components/**/*.jsx' 'pages/**/*.js' 'pages/**/*.jsx'"
+    "format": "prettier --write 'components/**/*.js' 'components/**/*.jsx' 'pages/**/*.js' 'pages/**/*.jsx' 'next.config.js'"
   },
   "devDependencies": {
     "prettier-standard": "^8.0.1"
